@@ -22,7 +22,7 @@ class CreateWorkTimesTable extends Migration
             $table->integer('doctor_id')->unsigned();
             $table->integer('clinic_id')->unsigned();
 
-            $table->foreign('doctor_id')->references('id')->on('doctors')->onDelete('cascade');
+            $table->foreign('doctor_id')->references('id')->on('users')->onDelete('cascade');
             $table->foreign('clinic_id')->references('id')->on('clinics')->onDelete('cascade');
             $table->timestamps();
         });

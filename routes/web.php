@@ -27,4 +27,12 @@ Route::prefix('/control')->group(function (){
 
     Route::get('/add-major','AdminController@AddMajor')->name('Add-Major');
     Route::post('/add-major','AdminController@AddMajor');
+
+    Route::get('/add-doctor','AdminController@AddDoctor')->name('Add-Doctor');
+    Route::post('/add-doctor','AdminController@AddDoctor');
+
+
+    Route::get('/add-clinic','AdminController@AddClinic')->name('Add-clinic');
+    Route::post('/add-clinic','AdminController@AddClinic');
+
 });

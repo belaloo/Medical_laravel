@@ -249,18 +249,34 @@ return [
             ],
         ],
 
-        ['header' => 'account_settings'],
+        ['header' => 'Doctors'],
         [
-            'text'    => 'Majors',
+            'text'    => 'Doctors',
             'icon'    => 'fas fa-fw fa-share',
             'submenu' => [
                 [
                     'text' => 'Add New',
-                    'url'  => $adminPage.'add-major',
+                    'url'  => $adminPage.'add-doctor',
                 ],
                 [
-                    'text' => 'Manage Majors',
-                    'url'  => $adminPage.'manage-majors',
+                    'text' => 'Manage Doctors',
+                    'url'  => $adminPage.'manage-doctors',
+                ],
+            ],
+        ],
+
+        ['header' => 'Clinic'],
+        [
+            'text'    => 'Clinic',
+            'icon'    => 'fas fa-fw fa-share',
+            'submenu' => [
+                [
+                    'text' => 'Add Clinic',
+                    'url'  => $adminPage.'add-clinic',
+                ],
+                [
+                    'text' => 'Manage Clinic',
+                    'url'  => $adminPage.'manage-clinic',
                 ],
             ],
         ],
@@ -323,7 +339,7 @@ return [
             ],
         ],
         'Select2' => [
-            'active' => false,
+            'active' => true,
             'files' => [
                 [
                     'type' => 'js',

@@ -3,10 +3,10 @@
 <section class="page-title" style="background-image: url(images/background/8.jpg);">
     <div class="auto-container">
         <div class="title-outer">
-            <h1>استعراض الأطباء</h1>
+            <h1>View By Major</h1>
             <ul class="page-breadcrumb">
-                <li><a href="./">الرئيسية</a></li>
-                <li>اطباء حسب الاختصاص</li>
+                <li><a href="./">Majors</a></li>
+                <li>Doctors By Major</li>
             </ul>
         </div>
     </div>

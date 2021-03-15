@@ -16,11 +16,17 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
+Route::get('/fix',function (){
+    Artisan::call('optimize');
+});
 Route::get('/doctors','HomeController@Doctors')->name('Doctors');
 Route::get('/majors','HomeController@Majors')->name('All-Majors');
 Route::get('/view-majors/{id}','HomeController@ViewMajors')->name('View-Majors');
 Route::get('/view-doctor/{id}','HomeController@ViewDoctor')->name('View-Doctor');
+
+Route::get('/booking/{id}','HomeController@Booking')->name('Booking');
+Route::post('/booking/{id}','HomeController@Booking');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
@@ -38,5 +44,8 @@ Route::prefix('/control')->group(function (){
 
     Route::get('/add-clinic','AdminController@AddClinic')->name('Add-clinic');
     Route::post('/add-clinic','AdminController@AddClinic');
+
+    Route::get('/doctor-times','AdminController@DoctorTimes')->name('doctor-times');
+    Route::post('/doctor-times','AdminController@DoctorTimes');
 
 });

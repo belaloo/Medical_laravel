@@ -281,6 +281,20 @@ return [
             ],
         ],
 
+
+        ['header' => 'DoctorTimes' ],
+        [
+            'text'    => 'Work Times',
+            'icon'    => 'fas fa-fw fa-share',
+            'submenu' => [
+                [
+                    'text' => 'Manage Times',
+                    'url'  => $adminPage.'doctor-times',
+                ],
+
+            ],
+        ],
+
     ],
 
     /*

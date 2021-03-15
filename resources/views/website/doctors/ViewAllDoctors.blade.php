@@ -3,10 +3,10 @@
 <section class="page-title" style="background-image: url(images/background/8.jpg);">
     <div class="auto-container">
         <div class="title-outer">
-            <h1>استعراض الأطباء</h1>
+            <h1>View All Doctors</h1>
             <ul class="page-breadcrumb">
-                <li><a href="./">الرئيسية</a></li>
-                <li>الأطباء</li>
+                <li><a href="./">Doctors</a></li>
+                <li>View All</li>
             </ul>
         </div>
     </div>
@@ -33,7 +33,7 @@
             </div>
             @endforeach
 
-            {{ $doctors->links() }}
+
 
         </div>
 

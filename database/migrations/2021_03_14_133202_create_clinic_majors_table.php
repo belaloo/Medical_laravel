@@ -17,7 +17,6 @@ class CreateClinicMajorsTable extends Migration
             $table->increments('id');
             $table->integer('major_id')->unsigned();
             $table->integer('clinic_id')->unsigned();
-
             $table->foreign('major_id')->references('id')->on('majors')
                 ->onDelete('cascade');
             $table->foreign('clinic_id')->references('id')->on('clinics')

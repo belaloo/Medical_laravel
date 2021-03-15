@@ -103,16 +103,11 @@
                                     </ul>
                                 </li>
                                 <li class="dropdown">
-                                    <span>Departments</span>
+                                    <span>Majors</span>
                                     <ul>
-                                        <li><a href="departments.html">Departments</a></li>
-                                        <li><a href="department-detail.html">Cardiology</a></li>
-                                        <li><a href="department-detail.html">Neurology</a></li>
-                                        <li><a href="department-detail.html">Urology</a></li>
-                                        <li><a href="department-detail.html">Gynecological</a></li>
-                                        <li><a href="department-detail.html">Pediatrical</a></li>
-                                        <li><a href="department-detail.html">Laboratory</a></li>
-                                        <li><a href="department-detail.html">Department Detail</a></li>
+                                        @foreach($AllMajors as $Major)
+                                        <li><a href="{{ route('View-Majors',[$Major->id]) }}">{{ $Major->name }}</a></li>
+                                        @endforeach
                                     </ul>
                                 </li>
 

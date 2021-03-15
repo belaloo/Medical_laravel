@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/doctors','HomeController@Doctors')->name('Doctors');
+Route::get('/majors','HomeController@Majors')->name('All-Majors');
+Route::get('/view-majors/{id}','HomeController@ViewMajors')->name('View-Majors');
+Route::get('/view-doctor/{id}','HomeController@ViewDoctor')->name('View-Doctor');
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

@@ -9,4 +9,8 @@ class Major extends Model
 {
     use HasFactory;
     protected $fillable = ['name'];
+
+    public function Doctors(){
+        return $this->hasMany(User::class,'major_id');
+    }
 }

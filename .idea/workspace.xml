@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bf9737a-77dc-444c-aa06-32a015b91b9c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Clinic.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Clinic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/WorkTime.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/WorkTime.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/adminlte.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/adminlte.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/website/doctors/ViewAllDoctors.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/website/doctors/ViewAllDoctors.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/website/doctors/ViewDoctor.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/website/doctors/ViewDoctor.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/website/majors/AllDoctors.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/website/majors/AllDoctors.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/website/static/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/website/static/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +184,7 @@
       <updated>1615750551688</updated>
       <workItem from="1615750553468" duration="573000" />
       <workItem from="1615751236243" duration="2810000" />
-      <workItem from="1615808421889" duration="27129000" />
+      <workItem from="1615808421889" duration="27269000" />
     </task>
     <servers />
   </component>
